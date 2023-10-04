@@ -1,5 +1,38 @@
 # Basic Git Commands
 A repository to practice basic git commands
+# Git On Mac
+
+Usually a basic wrapper for Git is preinstalled on MacBooks, check if you have it pre installed by using in the terminal: 
+
+
+```
+git --version
+```
+
+if you get a version number you can move on, if you get a prompt such as : 
+
+```
+The git command requires the command developer tooks. Would you like to install the tools now?
+```
+
+You need to click install and this will install git. Use the above command to confirm installation. 
+
+# Windows
+
+Windows does not come with Git pre installed as its not based on UNIX, but you can download [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) for windows (windows subsystem for linux), which will have it pre installed. Download an Ubuntu image if you go this route, it should be the default when you run : 
+
+```
+
+wsl --install
+```
+
+if you run into issues follow the guide or let me know. Once you have it set up generate your ssh key within WSL (run all the commands in the guide below in your wsl terminal, not cmd or powershell). Within WSL you will be within the Linux filesystem to access your local machine you can cd into it: 
+
+```
+cd /mnt/c
+```
+
+then you will be in your C drive (if you use a different letter drive just use that instead of C). 
 
 # How To Clone A Repository 
 
