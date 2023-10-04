@@ -63,6 +63,7 @@ After commiting push your changes back to GitHub:
 git push
 ```
 
+You will be asked for your password if you created one for your ssh key. You should then see a message showing that you successfully pushed. 
 
 
 
